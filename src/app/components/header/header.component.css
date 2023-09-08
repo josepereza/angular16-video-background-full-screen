@@ -72,4 +72,28 @@ button{
     .banner{
         margin-top: 10% !important;
     }
+    h1{
+        font-size: 1.5em !important;
+      }
+  }
+
+  @media (max-width:780px), screen and (orientation: portrait) {
+    #mivideo{
+        position: absolute;
+     left: 0;
+     top: 0;
+     width: 100vw;
+   height: 100vh;
+     object-fit: cover;
+     text-align: right;
+     visibility: visible;
+        z-index: -1;
+        
+    }
+    .banner{
+        margin-top: 1% !important;
+    }
+    h1{
+      font-size: 1.5em !important;
+    }
   }
