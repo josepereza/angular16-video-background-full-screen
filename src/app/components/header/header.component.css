@@ -77,13 +77,14 @@ button{
       }
   }
 
-  @media (max-width:780px), screen and (orientation: portrait) {
+  @media (max-width:880px), screen and (orientation: portrait) {
     #mivideo{
         position: absolute;
      left: 0;
      top: 0;
      width: 100vw;
-   height: 100vh;
+     height: 100vh;
+    
      object-fit: cover;
      text-align: right;
      visibility: visible;

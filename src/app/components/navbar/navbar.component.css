@@ -1,4 +1,7 @@
 ul li a {
     color:aliceblue;
-    font-size: 1.3em;
+    font-size: 1.2em;
+}
+nav {
+    width: 100%;
 }
